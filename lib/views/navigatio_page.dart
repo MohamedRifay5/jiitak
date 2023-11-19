@@ -45,7 +45,9 @@ class NavigationPage extends StatelessWidget {
       ),
       bottomNavigationBar: Obx(
         () => BottomAppBar(
+          elevation: 0.0,
           color: Colors.white,
+
           child: Row(
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
