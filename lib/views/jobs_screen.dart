@@ -5,8 +5,13 @@ class JobScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder(
-      color: Colors.yellow,
+    return Container(
+      color: Colors.white,
+      child: const Center(
+          child: Text(
+        'Job Screen',
+        style: TextStyle(fontSize: 25.0),
+      )),
     );
   }
 }

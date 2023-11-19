@@ -74,7 +74,7 @@ class MyPageScreen extends StatelessWidget {
                       decoration: InputDecoration(
                         labelStyle:
                             TextStyle(color: Colors.black, fontSize: 18.0),
-                        labelText: 'Store name*',
+                        labelText: storeName,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.all(
                             Radius.circular(5.0),
@@ -88,7 +88,7 @@ class MyPageScreen extends StatelessWidget {
                         decoration: InputDecoration(
                           labelStyle:
                               TextStyle(color: Colors.black, fontSize: 18.0),
-                          labelText: 'Representative name*',
+                          labelText: representativeName,
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.all(
                               Radius.circular(5.0),
@@ -103,7 +103,7 @@ class MyPageScreen extends StatelessWidget {
                         decoration: InputDecoration(
                           labelStyle:
                               TextStyle(color: Colors.black, fontSize: 18.0),
-                          labelText: 'Store phone number*',
+                          labelText: phoneNumber,
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.all(
                               Radius.circular(5.0),
@@ -118,7 +118,7 @@ class MyPageScreen extends StatelessWidget {
                         decoration: InputDecoration(
                           labelStyle:
                               TextStyle(color: Colors.black, fontSize: 18.0),
-                          labelText: 'Store Address',
+                          labelText:storeAddress,
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.all(
                               Radius.circular(5.0),
@@ -146,7 +146,7 @@ class MyPageScreen extends StatelessWidget {
                     const Padding(
                         padding: EdgeInsets.only(top: 12.0),
                         child: Text(
-                          'Store exterior* (up to 3 photos)',
+                          storeExterior,
                           style: TextStyle(fontSize: 15.0, color: Colors.black),
                         )),
                     Padding(
@@ -176,7 +176,7 @@ class MyPageScreen extends StatelessWidget {
                     const Padding(
                         padding: EdgeInsets.only(top: 12.0),
                         child: Text(
-                          'Store interior* (Please add 1 to 3 photos at a time)',
+                          storeInterior,
                           style: TextStyle(fontSize: 15.0, color: Colors.black),
                         )),
                     Padding(
@@ -206,7 +206,7 @@ class MyPageScreen extends StatelessWidget {
                     const Padding(
                         padding: EdgeInsets.only(top: 12.0),
                         child: Text(
-                          'Food photos* (Please add 1 to 3 photos at a time)',
+                          foodPhotos,
                           style: TextStyle(fontSize: 15.0, color: Colors.black),
                         )),
                     Padding(
@@ -236,7 +236,7 @@ class MyPageScreen extends StatelessWidget {
                     const Padding(
                         padding: EdgeInsets.only(top: 12.0),
                         child: Text(
-                          'Menu photos* (Please add 1 to 3 photos at a time)',
+                          menuPhotos,
                           style: TextStyle(fontSize: 15.0, color: Colors.black),
                         )),
                     Padding(
@@ -269,7 +269,7 @@ class MyPageScreen extends StatelessWidget {
                         decoration: InputDecoration(
                           labelStyle:
                           TextStyle(color: Colors.black, fontSize: 18.0),
-                          labelText: 'Visit gift name*',
+                          labelText: visitGiftName,
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.all(
                               Radius.circular(5.0),

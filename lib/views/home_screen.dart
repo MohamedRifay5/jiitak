@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 15.0,
-                          fontWeight: FontWeight.bold),
+                          fontWeight: FontWeight.normal),
                     ),
                   ),
                 ),
@@ -90,8 +90,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 padding: const EdgeInsets.all(15.0),
                 child: DatePicker(
                   DateTime.now(),
-                  height: 100.0,
-                  width: 80.0,
+                  height: 90.0,
+                  width: 60.0,
                   initialSelectedDate: DateTime.now(),
                   selectionColor: Colors.deepOrangeAccent,
                   selectedTextColor: Colors.white,
@@ -150,7 +150,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.black,
                                             fontSize: 15.0,
-                                            fontWeight: FontWeight.bold),
+                                            fontWeight: FontWeight.normal),
                                       ),
                                       Row(
                                         mainAxisAlignment:
@@ -163,7 +163,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                   color:
                                                       Colors.deepOrangeAccent,
                                                   fontSize: 15.0,
-                                                  fontWeight: FontWeight.bold),
+                                                  fontWeight: FontWeight.normal),
                                             ),
                                           ),
                                           Text(
@@ -171,7 +171,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                             style: TextStyle(
                                                 color: Colors.black,
                                                 fontSize: 15.0,
-                                                fontWeight: FontWeight.bold),
+                                                fontWeight: FontWeight.normal),
                                           ),
                                         ],
                                       ),
@@ -180,21 +180,21 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.black,
                                             fontSize: 15.0,
-                                            fontWeight: FontWeight.bold),
+                                            fontWeight: FontWeight.normal),
                                       ),
                                       Text(
                                         locationStr,
                                         style: TextStyle(
                                             color: Colors.black,
                                             fontSize: 15.0,
-                                            fontWeight: FontWeight.bold),
+                                            fontWeight: FontWeight.normal),
                                       ),
                                       Text(
                                         transportStr,
                                         style: TextStyle(
                                             color: Colors.black,
                                             fontSize: 15.0,
-                                            fontWeight: FontWeight.bold),
+                                            fontWeight: FontWeight.normal),
                                       ),
                                       Row(
                                         children: [
@@ -204,7 +204,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                               style: TextStyle(
                                                   color: Colors.grey,
                                                   fontSize: 15.0,
-                                                  fontWeight: FontWeight.bold),
+                                                  fontWeight: FontWeight.normal),
                                             ),
                                           ),
                                           Icon(
@@ -231,7 +231,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             color: Colors.redAccent,
                           ),
                           padding: const EdgeInsets.symmetric(horizontal: 10.0,vertical: 2.0),
-                          child: const Text('Until Today',style: TextStyle(color: Colors.white),),
+                          child: const Text(untilTodayStr,style: TextStyle(color: Colors.white),),
                         ),
                       ),
                     ],

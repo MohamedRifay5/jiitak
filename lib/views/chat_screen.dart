@@ -5,8 +5,13 @@ class ChatScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder(
-      color: Colors.blue,
+    return Container(
+      color: Colors.white,
+      child: const Center(
+          child: Text(
+            'Chat Screen',
+            style: TextStyle(fontSize: 25.0),
+          )),
     );
   }
 }
